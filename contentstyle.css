@@ -713,41 +713,65 @@ h4 {
         
     }
     @media screen and (min-width: 768px) and (max-width: 1023px) {
-
-        /* SHARE */
-        .view-modal1,
-        .popup1 { 
-          position: absolute;
-          left: 40%;
-          top: 40%;
-        }
-
-          /* CONTACT */
+          /* SHARE */
+          .view-modal1{ 
+               position: absolute;
+               left: 40%;
+               top: 40%;
+               
+             }
+    
+             .popup1 { 
+              font-size: 20px;
+                 position: absolute;
+                 
+               }
+     
+               /* CONTACT */
           .view-modal2,
           .popup2 {
             position: absolute;
             left: 60%;
             top: 15%;
         }
-
-        /* ABOUT */
-        .view-modal3,
-        button {
-            position: absolute;
-            left: 10%;
-            top: 20%;
-         }
+     
+             /* ABOUT */
+             .view-modal3{
+                 position: absolute;
+                 left: 10%;
+                 top: 20%;
+              }
+            
+              button {
+                font-size: 15px;
+                 position: absolute;
+                 margin-top: -52px;
+                 margin-left: 3px;
+              }
+            /* .popup2 {
+              width: 70vw;
+              height: 65vw;
+            } */
+    
+            /* .Imformation{ 
+              font-size: 10px;
+            }
+           */
 }
 
     @media screen and (max-width: 767px) {
          /* SHARE */
-         .view-modal1,
-         .popup1 { 
+         .view-modal1{ 
         font-size: 30px;
            position: absolute;
-           left: 40%;
-           top: 40%;
+           
          }
+
+         .popup1 { 
+          font-size: 10px;
+             position: absolute;
+             
+           }
  
            /* CONTACT */
            .view-modal2,
@@ -760,14 +784,19 @@ h4 {
          }
  
          /* ABOUT */
-         .view-modal3,
-         button {
+         .view-modal3{
             font-size: 30px;
              position: absolute;
              left: 10%;
              top: 20%;
           }
         
+          button {
+            font-size: 10px;
+             position: absolute;
+             margin-top: -52px;
+             margin-left: 3px;
+          }
         .popup2 {
           width: 70vw;
           height: 65vw;

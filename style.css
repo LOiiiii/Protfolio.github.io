@@ -67,6 +67,7 @@
     h5 {
         line-height: 2;
         margin-top: 50px;
+        margin-bottom: 50px;
       }
     
     .circle-1 {
@@ -194,9 +195,10 @@
             letter-spacing: 1vh;
         }
         h5 {
-            font-size: small;
+            font-size: 20px;
             line-height: 2;
             margin-top: 50px;
+            margin-bottom: 50px;
           }
         
           .circle-1 {
@@ -336,6 +338,7 @@
             font-size: x-small;
             line-height: 2;
             margin-top: 50px;
+            margin-bottom: 50px;
           }
         
         .circle-3 {

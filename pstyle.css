@@ -20,7 +20,7 @@
     
     h1 {
         margin-top: 100px;
-        margin-left: 57px;
+        margin-left: 50px;
         font-size: 50px;
         text-decoration: underline;
     }
@@ -31,7 +31,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 2px;
+        margin-top: 15px;
     }
 
 
@@ -44,7 +44,7 @@
     }
 
     .bc1{
-        margin-top: 10px;
+        margin-top: 15px;
     }
 }
 
@@ -75,20 +75,26 @@
         text-decoration: underline;
     }
 
-    .poster {
+    .Package1,
+    .Package2{
         transform: scale(0.95);
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: -20px;
+        margin-top: 5px;
     }
 
+
     h2 {
-        font-size: 45px;
+        font-size: 40px;
         text-decoration: underline;
         text-align: center;
         margin-top: 50px;
         margin-bottom: 50px ;
+    }
+
+    .bc1{
+        margin-top: 10px;
     }
 }
 
@@ -112,7 +118,6 @@
     .close {
         width: 12vh;
     }
-    
     h1 {
         margin-top: 10px;
         margin-left: 35px;
@@ -120,13 +125,15 @@
         text-decoration: underline;
     }
 
-    .poster {
+    .Package1,
+    .Package2{
         transform: scale(0.95);
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: -10px;
+        margin-top: 5px;
     }
+
 
     h2 {
         font-size: 25px;
@@ -135,4 +142,9 @@
         margin-top: 20px;
         margin-bottom: 20px ;
     }
+
+    .bc1{
+        margin-top: 10px;
+    }
+    
 }
