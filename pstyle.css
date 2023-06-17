@@ -1,0 +1,138 @@
+@media screen and (min-width: 1024px) {
+    
+    .header {
+        margin-top: 3vh;
+    }   
+
+    .left {
+        width: 20vh;
+        margin-right: 10vh;
+    }
+
+    .right {
+        width: 20vh;
+        margin-left: 10vh;
+    }
+
+    .close {
+        width: 20vh;
+    }
+    
+    h1 {
+        margin-top: 100px;
+        margin-left: 57px;
+        font-size: 50px;
+        text-decoration: underline;
+    }
+
+    .Package1,
+    .Package2{
+        transform: scale(0.95);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2px;
+    }
+
+
+    h2 {
+        font-size: 40px;
+        text-decoration: underline;
+        text-align: center;
+        margin-top: 150px;
+        margin-bottom: 100px ;
+    }
+
+    .bc1{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .header {
+        margin-top: 2vh;
+        margin-bottom: 20px;
+    }
+    
+    .left {
+        width: 15vh;
+        margin-right: 5vh;
+    }
+    
+    .right {
+        width: 15vh;
+        margin-left: 5vh;
+    }
+    
+    .close {
+        width: 15vh;
+    }
+    
+    h1 {
+        margin-top: 80px;
+        margin-left: 45px;
+        font-size: 25px;
+        text-decoration: underline;
+    }
+
+    .poster {
+        transform: scale(0.95);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -20px;
+    }
+
+    h2 {
+        font-size: 45px;
+        text-decoration: underline;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px ;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .header {
+        margin-top: 2vh;
+        margin-bottom: 20px;
+    }
+    
+    .left {
+        width: 12vh;
+        margin-right: 2vh;
+    }
+    
+    .right {
+        width: 12vh;
+        margin-left: 2vh;
+    }
+    
+    .close {
+        width: 12vh;
+    }
+    
+    h1 {
+        margin-top: 10px;
+        margin-left: 35px;
+        font-size: 25px;
+        text-decoration: underline;
+    }
+
+    .poster {
+        transform: scale(0.95);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -10px;
+    }
+
+    h2 {
+        font-size: 25px;
+        text-decoration: underline;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px ;
+    }
+}

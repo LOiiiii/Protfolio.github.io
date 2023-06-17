@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>content</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="contentstyle.css"><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="common.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row poster">
+            <div class="col poster1">
+              <a id="poster1" href="poster1.html">
+                    <img src="poster1.jpg" alt="">
+                </a>
+            </div>
+            <div class="col poster2">
+              <a id="poster2" href="poster2.html">
+                <img src="poster2.jpg" alt="">
+                </a>
+            </div>
+            <!-- <div class="col poster3">
+              <a id="poster3" href="poster3.html">
+                    <img src="poster3.jpg" alt="">
+                </a>
+            </div> -->
+            <div class="col poster4">
+              <a id="poster4" href="poster4.html">
+                    <img src="poster4.jpg" alt="">
+                </a>
+            </div>
+            <div class="col poster5">
+              <a id="poster5" href="poster5.html">
+                    <img src="poster5.png" alt="">
+                </a>
+            </div>
+            <div class="col poster6">
+              <a id="poster6" href="poster6.html">
+                    <img src="poster6.jpg" alt="">
+                </a>
+            </div>
+            <div class="col p1">
+              <a id="p1" href="p1.html">
+                    <img src="p1-5-10.png" alt="">
+                </a>
+            </div>
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <button class="view-modal1">SHARE</button>
+    <button class="view-modal2">CONTACT</button>
+    <button class="view-modal3" onclick="window.location.href='index.html'">ABOUT</button>
+
+    <div class="popup1">
+      <header>
+        <span>SHARE</span>
+        <div class="close"><i class="uil uil-times"></i></div>
+      </header>
+      <div class="content">
+        <p>Share this link</p>
+        <ul class="icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+          <a href="#"><i class="fab fa-telegram-plane"></i></a>
+        </ul>
+        <p>copy link</p>
+        <div class="field">
+          <i class="url-icon uil uil-link"></i>
+          <input type="text" readonly value="https://YunYiLin.Protfolio.io/">
+          <button>Copy</button>
+        </div>
+      </div>
+    </div>
+  
+    <div class="popup2">
+      <header>
+        <span>CONTACT</span>
+        <div class="close"><i class="uil uil-times"></i></div>
+      </header>
+
+      <div class="content">
+        <p>Contact Information</p>
+        <ul class="Imformation">
+          <li><i class="uil uil-envelope"></i> starry901016@gmail.com</li>
+          <li><i class="uil uil-phone"></i> +886 906 145 945</li>
+          <li><i class="uil uil-globe"></i> https://YunYiLin.Protfolio.io</li>
+        </ul>
+      </div>
+    </div>
+    
+
+    <script>
+      const viewBtn1 = document.querySelector(".view-modal1");
+      const popup1 = document.querySelector(".popup1");
+      const close1 = popup1.querySelector(".close");
+      const field1 = popup1.querySelector(".field");
+      const input1 = field1.querySelector("input");
+      const copy1 = field1.querySelector("button");
+  
+      viewBtn1.onclick = () => {
+        popup1.classList.toggle("show");
+      }
+  
+      close1.onclick = () => {
+        popup1.classList.toggle("show");
+      }
+  
+      copy1.onclick = () => {
+        input1.select();
+        document.execCommand("copy");
+        field1.classList.add("active");
+        copy1.innerText = "Copied";
+        setTimeout(() => {
+          field1.classList.remove("active");
+          copy1.innerText = "Copy";
+        }, 3000);
+      }
+  
+      const viewBtn2 = document.querySelector('.view-modal2');
+      const popup2 = document.querySelector(".popup2");
+      const close2 = popup2.querySelector(".close");
+  
+      viewBtn2.onclick = () => {
+        popup2.classList.toggle("show");
+      }
+  
+      close2.onclick = () => {
+        popup2.classList.toggle("show");
+      }
+    </script>
+    
+  </div>
+</body>
+
+</html>

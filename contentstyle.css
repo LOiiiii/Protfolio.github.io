@@ -1,0 +1,782 @@
+@media screen and (min-width: 1024px) {
+.row.poster {
+    position: absolute;
+    height: 1000px;
+    width: 100%;
+    overflow: hidden; 
+}
+
+.poster1 {
+    position: absolute;
+    transform: scale(0.3) rotate(-45deg);
+    transform-origin: top left;
+    margin-top: 25%;
+    margin-left: -15%;
+    z-index: -2;
+}
+
+.poster2 {
+    position: absolute;
+    transform: scale(0.15) rotate(-30deg);
+    transform-origin: top left;
+    margin-top: 60%;
+    margin-left: 2%;
+    z-index: 1;
+}
+
+/* .poster3 {
+    position: absolute;
+    transform: scale(0.25) rotate(55deg);
+    transform-origin: top left;
+    margin-top: -20%;
+    margin-left: 85%;
+} */
+
+.poster4 {
+    position: absolute;
+    transform: scale(0.25) rotate(20deg);
+    transform-origin: top left;
+    margin-top: 6%;
+    margin-left: 50%;
+}
+
+.poster5 {
+    position: absolute;
+    transform: scale(0.3) rotate(-10deg);
+    transform-origin: top left;
+    margin-top: 50%;
+    margin-left: 60%;
+}
+
+.poster6 {
+    position: absolute;
+    transform: scale(0.25) rotate(30deg);
+    transform-origin: top left;
+    margin-top: 20%;
+    margin-left: 2%;
+}
+
+.p1{
+  position: absolute;
+  transform: scale(0.3) rotate(-35deg);
+  transform-origin: top left;
+  margin-top: 20%;
+  margin-left: 45%;
+}
+
+h4 {
+    font-size: 60px;
+    color: white;
+    letter-spacing: 5px;
+    display: inline-block;
+    background-color: #f00;
+    transform-origin: top left;
+    text-decoration: underline;
+}
+
+.about {
+    transform: rotate(30deg);
+    margin-left: 50%;
+    margin-top: 50%;
+    position: absolute;
+    z-index: 3;
+}
+
+.share {
+    transform: rotate(-35deg);
+    margin-left: 75%;
+    margin-top: 30%;
+    position:  absolute;
+    z-index: 3;
+     
+}
+
+.contact {
+    transform: rotate(-40deg);
+    margin-left: 10%;
+    margin-top: 40%;
+    position:  absolute;
+    z-index: 3;
+    
+    
+}
+
+/* .circle {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+    border-radius: 50%;
+    animation: expandAndFadeOut 5s linear forwards;
+    z-index: 4;
+  }
+  
+  @keyframes expandAndFadeOut {
+    0% {
+      width: 10px;
+      height: 10px;
+      opacity: 3;
+    }
+    
+    50% {
+        width: 100px;
+        height: 100px;
+        opacity: 2;
+      }
+
+    100% {
+      width: 200vw;
+      height: 200vw;
+      opacity: 0;
+    }
+  } */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .row.poster {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        overflow: hidden; 
+    }
+    
+    .poster1 {
+        position: absolute;
+        transform: scale(0.15) rotate(-45deg);
+        transform-origin: top left;
+        margin-top: 70%;
+        margin-left: -20%;
+        z-index: -2;
+    }
+    
+    .poster2 {
+        position: absolute;
+        transform: scale(0.08) rotate(-30deg);
+        transform-origin: top left;
+        margin-top: 110%;
+        margin-left: 20%;
+        z-index: 1;
+    }
+    
+    .poster3 {
+        position: absolute;
+        transform: scale(0.17) rotate(40deg);
+        transform-origin: top left;
+        margin-top: 30%;
+        margin-left: 80%;
+    }
+    
+    .poster4 {
+        position: absolute;
+        transform: scale(0.12) rotate(20deg);
+        transform-origin: top left;
+        margin-top: 40%;
+        margin-left: 40%;
+    }
+    
+    .poster5 {
+        position: absolute;
+        transform: scale(0.15) rotate(-10deg);
+        transform-origin: top left;
+        margin-top: 100%;
+        margin-left: 40%;
+    }
+    
+    .poster6 {
+        position: absolute;
+        transform: scale(0.15) rotate(30deg);
+        transform-origin: top left;
+        margin-top: 85%;
+        margin-left: 2%;
+    }
+    
+    h4 {
+        font-size: 60px;
+        color: white;
+        letter-spacing: 5px;
+        display: inline-block;
+        background-color: #f00;
+        transform-origin: top left;
+        text-decoration: underline;
+    }
+    
+    .about {
+        transform: rotate(38deg);
+        margin-left: 25%;
+        margin-top: 20%;
+        position: absolute;
+        z-index: 3;
+    }
+    
+    .share {
+        transform: rotate(35deg);
+        margin-left: 55%;
+        margin-top: 90%;
+        position:  absolute;
+        z-index: 3;
+         
+    }
+    
+    .contact {
+        transform: rotate(-35deg);
+        margin-left: 20%;
+        margin-top: 80%;
+        position:  absolute;
+        z-index: 3;
+        
+        
+    }
+    
+    /* .circle {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 10px;
+        height: 10px;
+        background-color: yellow;
+        border-radius: 50%;
+        animation: expandAndFadeOut 5s linear forwards;
+        z-index: 4;
+      }
+    
+      @keyframes expandAndFadeOut {
+        0% {
+          width: 10px;
+          height: 10px;
+          opacity: 3;
+        }
+        
+        50% {
+            width: 100px;
+            height: 100px;
+            opacity: 2;
+          }
+    
+        100% {
+          width: 200vw;
+          height: 200vw;
+          opacity: 0;
+        }
+      } */
+    }    
+
+
+    @media screen and (max-width: 767px) {
+      .row.poster {
+        position: absolute;
+        height: 896px;
+        width: 100%;
+        overflow: hidden; 
+        justify-content: center;
+    }
+    
+    .poster1 {
+        position: absolute;
+        transform: scale(0.1) rotate(60deg);
+        transform-origin: top left;
+        margin-top: 60%;
+        margin-left: 180%;
+        z-index: -2;
+    }
+    
+    .poster2 {
+        position: absolute;
+        transform: scale(0.05) rotate(-30deg);
+        transform-origin: top left;
+        margin-top: 132%;
+        margin-left: -42%;
+        z-index: 1;
+    }
+    
+    .poster3 {
+        position: absolute;
+        transform: scale(0.12) rotate(50deg);
+        transform-origin: top left;
+        margin-top: 90%;
+        margin-left: 160%;
+    }
+    
+    .poster4 {
+        position: absolute;
+        transform: scale(0.1) rotate(20deg);
+        transform-origin: top left;
+        margin-top: 40%;
+        margin-left: -55%;
+    }
+    
+    .poster5 {
+        position: absolute;
+        transform: scale(0.1) rotate(30deg);
+        transform-origin: top left;
+        margin-top: 130%;
+        margin-left: 80%;
+    }
+    
+    .poster6 {
+        position: absolute;
+        transform: scale(0.12) rotate(25deg);
+        transform-origin: top left;
+        margin-top: 160%;
+        margin-left: 20%;
+    }
+    
+    h4 {
+        font-size: 40px;
+        color: white;
+        letter-spacing: 5px;
+        display: inline-block;
+        background-color: #f00;
+        transform-origin: top left;
+        text-decoration: underline;
+    }
+    
+    .about {
+        transform: rotate(38deg);
+        margin-left: 45%;
+        margin-top: 90%;
+        position: absolute;
+        z-index: 2;
+    }
+    
+    .share {
+        transform: rotate(20deg);
+        margin-left: 15%;
+        margin-top: 140%;
+        position:  absolute;
+        z-index: 2;
+         
+    }
+    
+    .contact {
+        transform: rotate(-35deg);
+        margin-left: 20%;
+        margin-top: 50%;
+        position:  absolute;
+        z-index: 2;
+    }
+    
+    /* .circle {
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        width: 10px;
+        height: 10px;
+        background-color: yellow;
+        border-radius: 50%;
+        animation: expandAndFadeOut 5s linear forwards;
+        z-index: 4;
+      }
+    
+      @keyframes expandAndFadeOut {
+        0% {
+          width: 10px;
+          height: 10px;
+          opacity: 3;
+        }
+        
+        50% {
+            width: 100px;
+            height: 100px;
+            opacity: 2;
+          }
+    
+        100% {
+          width: 200vw;
+          height: 200vw;
+          opacity: 0;
+        }
+      } */
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    
+    ::selection {
+      color: rgb(255, 0, 0);
+      background: #e82a2a;
+    }
+    
+    .view-modal1,
+    .popup1 {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+    }
+    .view-modal3,
+    button {
+      top: 300px;;
+      outline: none;
+      cursor: pointer;
+      font-weight: 500;
+      border: -2px solid transparent;
+      pointer-events: auto;
+      z-index: 10;
+      transition: 0.1s linear, border-color 0.1s linear, color 0.1s linear;
+    }
+    
+    
+    .view-modal2,
+    .popup2 {
+      position: absolute;
+      left: 70%;
+      top: 50%;
+    }
+    
+    
+    
+    
+    .view-modal1{
+        top: 50%;
+        color: #ffffff;
+        font-size: 60px;
+        background-color: rgb(255, 0, 0);
+        transform: rotate(-35deg);
+        text-decoration: underline;
+      }
+    
+      .view-modal2{
+        top: 50%;
+        color: #ffffff;
+        font-size: 60px;
+        background-color: rgb(255, 0, 0);
+        transform: rotate(40deg);
+        text-decoration: underline;
+      }
+    
+      .view-modal3{
+        top: 50%;
+        color: #ffffff;
+        font-size: 60px;
+        background-color: rgb(255, 0, 0);
+        transform: rotate(-20deg);
+        text-decoration: underline;
+      }
+    
+    .popup1,
+    .popup2,
+    .popup3 {
+      background: yellow;
+      padding: 25px;
+      border-radius: 15px;
+      top: -150%;
+      max-width: 380px;
+      width: 100%;
+      opacity: 0;
+      pointer-events: none;
+      box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+      transform: translate(-50%, -50%) scale(1);
+      transition: top 0s 0.2s ease-in-out, opacity 0.2s 0s ease-in-out, transform 0.2s 0s ease-in-out;
+      z-index: 5;
+    }
+    
+    .popup1.show,
+    .popup2.show,
+    .popup3.show {
+      top: 50%;
+      opacity: 1;
+      pointer-events: auto;
+      transform: translate(-50%, -50%) scale(1);
+      transition: top 0s 0s ease-in-out, opacity 0.2s 0s ease-in-out, transform 0.2s 0s ease-in-out;
+      z-index: 11;
+    }
+    .popup1 :is(header, .icons, .field1){
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .popup2 :is(header, .icons, .field1){
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+  
+    .popup1 header,
+    .popup2 header{
+      padding-bottom: 15px;
+      border-bottom: 1px solid #000000;
+    }
+    
+    .popup1 header span,
+    .popup2 header span{
+      font-size: 24px;
+      font-weight: 600;
+    }
+    
+    header .close,
+    .icons a{
+        display: flex;
+        align-items: center;
+        border-radius: 50%;
+        justify-content: center;
+        transition: all 0.3s ease-in-out;
+      }
+    
+    header .close{
+        color: #ffffff;
+        font-size: 17px;
+        background: #000000;
+        height: 33px;
+        width: 33px;
+        cursor: pointer;
+        justify-content: end;
+      }
+    
+    .popup1 header .close:hover,
+    .popup2 header .close:hover{
+      background: #ff0000;
+    }
+    
+    .popup1 .content,
+    .popup2 .content,
+    .popup3 .content {
+      margin: 20px 0;
+    }
+    
+    .popup1 .icons{
+      margin: 15px 0 20px 0;
+    }
+    
+    .popup1 .content p,
+    .popup2 .content p{
+      font-size: 16px;
+    }
+    
+    .Imformation{
+    margin-left: 20px;
+    }
+    
+    .popup1 .icons a,
+    .popup2 .icons a,
+    .popup3 .icons a {
+      height: 50px;
+      width: 50px;
+      font-size: 20px;
+      text-decoration: none;
+      border: 1px solid transparent;
+    }
+    
+    .popup1 .icons a i{
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    .popup1 .icons a:nth-child(1){
+        color: #1877F2;
+        border-color: #b7d4fb;
+      }
+      
+      .popup1 .icons a:nth-child(1):hover{
+        background: #1877F2;
+      }
+      
+      .popup1 .icons a:nth-child(2){
+        color: #46C1F6;
+        border-color: #b6e7fc;
+      }
+      
+      .popup1 .icons a:nth-child(2):hover {
+        background: #46C1F6;
+      }
+      
+      .popup1 .icons a:nth-child(3){
+        color: #e1306c;
+        border-color: #f5bccf;
+      }
+      
+      .popup1 .icons a:nth-child(3):hover{
+        background: #e1306c;
+      }
+      
+      .popup1 .icons a:nth-child(4){
+        color: #25D366;
+        border-color: #bef4d2;
+      }
+      
+      .popup1 .icons a:nth-child(4):hover{
+        background: #25D366;
+      }
+      
+      .popup1 .icons a:nth-child(5) {
+        color: #0088cc;
+        border-color: #b3e6ff;
+      }
+      
+      .popup1 .icons a:nth-child(5):hover{
+        background: #0088cc;
+      }
+      
+      .popup1 .icons a:hover{
+        color: #fff;
+        border-color: transparent;
+      }
+      
+      .popup1 .icons a:hover i{
+        transform: scale(1.2);
+      }
+    .content .field1,
+    .content .field2{
+        margin: 12px 0 -5px 0;
+        height: 45px;
+        border-radius: 4px;
+        padding: 0 5px;
+        border: 1px solid #e1e1e1;
+    }
+    
+    .popup1 .field1.active,
+    .popup2 .field2.active{
+        border-color: #000000;
+    }
+    
+    .field1 i{
+        width: 50px;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .field1.active i{
+        color: #7d2ae8;
+    }
+    
+    .popup1 .field1 input,
+    .popup2 .field2 input{
+      border: none;
+      outline: none;
+      /* background: transparent; */
+      font-size: 15px;
+      width: 100%;
+      height: 100%;
+      font-family: 'Poppins', sans-serif;
+    }
+    
+    
+    .popup1 .field1 button:hover,
+    .popup2 .field2 button:hover{
+        background: #ff0000;
+    }
+    
+    
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #f1f1f1;
+        color: #333333;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .button:hover {
+        background-color: #dddddd;
+      }
+
+
+    @media screen and (min-width: 1024px) {
+
+        /* SHARE */
+        .view-modal1,
+        .popup1 { 
+          position: absolute;
+          left: 40%;
+          top: 60%;
+        }
+
+          /* CONTACT */
+          .view-modal2{
+            left: 70%;
+            top: 40%;
+          }
+          .popup2 {
+            position: absolute;
+            top: 30%;
+          }
+
+        /* ABOUT */
+        .view-modal3{
+            position: absolute;
+            left: 10%;
+        }
+        
+
+        
+        
+    }
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+
+        /* SHARE */
+        .view-modal1,
+        .popup1 { 
+          position: absolute;
+          left: 40%;
+          top: 40%;
+        }
+
+          /* CONTACT */
+          .view-modal2,
+          .popup2 {
+            position: absolute;
+            left: 60%;
+            top: 15%;
+        }
+
+        /* ABOUT */
+        .view-modal3,
+        button {
+            position: absolute;
+            left: 10%;
+            top: 20%;
+         }
+}
+
+    @media screen and (max-width: 767px) {
+         /* SHARE */
+         .view-modal1,
+         .popup1 { 
+        font-size: 30px;
+           position: absolute;
+           left: 40%;
+           top: 40%;
+         }
+ 
+           /* CONTACT */
+           .view-modal2,
+           .popup2 {
+            margin-right: -30%;
+            font-size: 30px;
+             position: absolute;
+             left: 60%;
+             top: 15%;
+         }
+ 
+         /* ABOUT */
+         .view-modal3,
+         button {
+            font-size: 30px;
+             position: absolute;
+             left: 10%;
+             top: 20%;
+          }
+        
+        .popup2 {
+          width: 70vw;
+          height: 65vw;
+        }
+
+        .Imformation{ 
+          font-size: 10px;
+        }
+      
+      }
+    
+
